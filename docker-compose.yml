@@ -1,0 +1,6 @@
+grip:
+  image: christopherhein/grip
+  volumes:
+    - ./README.md:/work/README.md
+  ports:
+    - "6419:6419"
